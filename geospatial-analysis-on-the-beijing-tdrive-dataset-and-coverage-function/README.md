@@ -158,7 +158,7 @@ allGeohashesTraversedByCab = np.unique(allGeohashesTraversedByCab)
 
 The same uniqueness principle has been applied to the geohashes of the cabs to avoid redundancy for the coverage function.
 
-$$coverage(geohash_{focus}, geohash_{total}, t) = \frac{\#Intersection_{unique}(geohash_{focus}, geohash_{total})}{\#Total_{unique}(geohash_{total})} \: given\:t$$
+$$coverage(geohash_{focus}, geohash_{total}, t) = \frac{Intersection_{unique}(geohash_{focus}, geohash_{total})}{Total_{unique}(geohash_{total})} \: given\:t$$
 
 Python implementation in a one-vs-all structure
 
