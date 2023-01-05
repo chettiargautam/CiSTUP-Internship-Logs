@@ -8,13 +8,13 @@ This is only complementary to the original approach. A few plotting techniques a
 
 #### Dataset: Geolife Trajectories
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 mobilityCoordinates = sample_df[[0,1]]
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from shapely.geometry import Point
@@ -74,7 +74,7 @@ folium.PolyLine(locations = Motion,
 				line_opacity = 1).add_to(focusMap)
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 # Dataset structure
@@ -98,7 +98,7 @@ This also takes in geohashes which are not containing roads, however since only 
 
 The entire transit data is shown in the figure below
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Linspacing the bounding boxes into a set number of partitions on the basis of precision coresponding widths will provide the geohash information
 

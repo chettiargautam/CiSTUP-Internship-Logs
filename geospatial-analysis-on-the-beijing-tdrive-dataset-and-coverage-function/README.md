@@ -90,7 +90,7 @@ _ = ax.axis('off')
 ox.plot_graph(ox.graph_from_place('Beijing, China'))
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 G = ox.graph_from_place('Beijing, China')
