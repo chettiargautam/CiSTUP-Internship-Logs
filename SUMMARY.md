@@ -7,4 +7,5 @@
   * [Baseline Machine Learning models and complications](ivat-data-processing-annotation-and-model-dynamics/baseline-machine-learning-models-and-complications.md)
 * [Geospatial Analysis on the Beijing TDrive Dataset and Coverage Function](geospatial-analysis-on-the-beijing-tdrive-dataset-and-coverage-function/README.md)
   * [Additional Exploration](geospatial-analysis-on-the-beijing-tdrive-dataset-and-coverage-function/additional-exploration.md)
-* [Contrastive Learning on MNIST, FMNIST and CIFAR-10 Datasets](contrastive-learning-on-mnist-fmnist-and-cifar-10-datasets.md)
+* [Contrastive Learning on MNIST, FMNIST and CIFAR-10 Datasets](contrastive-learning-on-mnist-fmnist-and-cifar-10-datasets/README.md)
+  * [Benchmarking](contrastive-learning-on-mnist-fmnist-and-cifar-10-datasets/benchmarking.md)
